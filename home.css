@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27');
+
+
+body {
+  background-color: #c7cfd4;
+}
+
+/* Nav Bar */
+
+  li, a, button {
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #595959;
+    font-family: 'Lato', sans-serif;
+  }
+
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .nav-links {
+    list-style: none;
+  }
+
+ 
+  
+  .nav-links li {
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    
+  }
+
+.nav-links li:hover {
+  border-bottom: 5px solid black;
+  
+}
+
+.current {
+  border-bottom: 5px solid black;
+}
+
+  .fas {
+    font-size: 80px;
+    color: #595959;
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    width: 40px;
+  }
+
+  h1 {
+    font-family: 'Lato', sans-serif;
+   font-weight: bold;
+   font-size: 50px;
+   color: #595959;
+   margin: 10px;
+  }
+
+  
+
+  /* HERO */
+
+  .hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/b6/0c/d0/b60cd0cfee7f9cc0e0e44165d749e320.gif");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    padding: 180px;
+    margin: 10px auto;
+    
+  }
+  
+  
+  .hero-text {
+    color: white;
+    text-align: center;
+    
+  }
+  
+  @media all and (max-width:500px) {
+    .hero-text {
+      font-size: 20px;
+    }
+  }
+
+  h2 {
+
+    font-family: 'Lato', sans-serif;
+    font-size: 41px;
+  }
+
+/* H3 Begins */
+
+h3 {
+  font-size: 85px;
+  font-family: 'Lato', sans-serif;
+  color: #b7babd;
+
+}
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  
+}
+
+.h4 {
+  font-size: 80px;
+  color: #b7babd;
+  text-align: center;
+  margin: 60px;
+}
+
+
+
+/* Features */
+  
+  .container2 {
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;  
+  }
+  
+  
+  .img2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  }
+  
+  .container2 {
+  display:flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  }
+  
+  .box2{ 
+   margin: 10px auto;
+  }
+  
+  .box3 {
+  margin: 10px auto;
+  }
+  
+  .box4 {
+  margin: 10px auto;
+  }
+  
+  .box5 {
+  margin: 10px auto;
+  }
+  
+  h5 {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .healthinsurance-container1 {
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;  
+    font-size: 25px;
+    padding: 30px;
+  }
+  
+/* Testiominals */
+
+.review-container1 {
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;  
+  font-size: 25px;
+  padding: 30px;
+  margin: 10px 0;
+}
+
+
+.h6 {
+  font-size: 80px;
+  font-family: 'Lato', sans-serif;
+  color: #b7babd;
+}
+
+h6 {
+
+    text-align: center;
+    font-size: 60px;
+    margin: 50px;
+    color: #e6e6e6;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+  /* Footer */
+
+ 
+  .link-container {
+    list-style: none;
+    display: flex;
+  }
+
+  .link-container li {
+    margin-right: 20px;
+  }
+
+  .link-container li a {
+    text-decoration: none;
+    font-size: 25px;
+  }
+ 
+ 
+  footer {
+    color: #3b3a3a;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+ /* Tablet LOGO */
+  .fas {
+    font-size: 50px;
+    color: #595959;
+    margin-left: 30px;
+  }
+  
+  i {
+    color: #595959;
+  }
+
+  .icon:hover {
+    color: black;
+    transition: 1s;
+  }
+
+  .copy-right {
+    margin-right: 20px;
+  }
+
+  /* Making changes to css */
+
+  
