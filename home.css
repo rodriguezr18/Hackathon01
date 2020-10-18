@@ -14,6 +14,7 @@ body {
     font-weight: bold;
     color: #595959;
     font-family: 'Lato', sans-serif;
+    
   }
 
   
@@ -250,7 +251,5 @@ p {
   .copy-right {
     margin-right: 20px;
   }
-
-  /* Making changes to css */
 
   
