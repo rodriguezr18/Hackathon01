@@ -2,7 +2,8 @@
 
 
 body {
-  background-color: #c7cfd4;
+  /* background-color: #c7cfd4; */
+  background-color: white;
 }
 
 /* Nav Bar */
@@ -12,7 +13,7 @@ body {
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-    color: #595959;
+    color: black;
     font-family: 'Lato', sans-serif;
     
   }
@@ -49,7 +50,7 @@ body {
 
   .fas {
     font-size: 80px;
-    color: #595959;
+    color: black;
     font-family: 'Abel', sans-serif;
     display: flex;
     width: 40px;
@@ -59,22 +60,22 @@ body {
     font-family: 'Lato', sans-serif;
    font-weight: bold;
    font-size: 50px;
-   color: #595959;
+   color: black;
    margin: 10px;
   }
 
-  
 
   /* HERO */
 
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/b6/0c/d0/b60cd0cfee7f9cc0e0e44165d749e320.gif");
+    background-image:url("https://cdn.dribbble.com/users/1139271/screenshots/3111447/3.gif");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
     padding: 180px;
     margin: 10px auto;
+    border-radius: 20px;
     
   }
   
@@ -102,43 +103,48 @@ body {
 h3 {
   font-size: 85px;
   font-family: 'Lato', sans-serif;
-  color: #b7babd;
+  /* color: #b7babd; */
+  color: white;
 
 }
 
 h4 {
   font-family: 'Lato', sans-serif;
-  
 }
 
 .h4 {
+  font-family: 'Lato', sans-serif;
   font-size: 80px;
-  color: #b7babd;
+  color: white;
   text-align: center;
-  margin: 60px;
+  margin: 9px;
 }
 
 
 
 /* Features */
   
-  .container2 {
-  color: white;
-  background-color: rgba(0,0,0,0.8);
-  text-align: center;  
-  }
-  
-  
   .img2 {
   width: 300px;
   height: 300px;
   border-radius: 40px;
+  box-shadow: 20px 20px 30px black;
   }
   
+  
   .container2 {
-  display:flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  text-align: center;  
+  border-radius: 20px;
+  
+ 
+  }
+
+  .child {
+    display: flex;
+    flex-wrap: wrap;
+
   }
   
   .box2{ 
@@ -157,9 +163,12 @@ h4 {
   margin: 10px auto;
   }
   
+
   h5 {
     font-size: 30px;
     font-family: 'Lato', sans-serif;
+    margin: 15px;
+    padding: 20px;
   }
   
   .healthinsurance-container1 {
@@ -168,6 +177,8 @@ h4 {
     text-align: center;  
     font-size: 25px;
     padding: 30px;
+    border-radius: 20px;
+    
   }
   
 /* Testiominals */
@@ -178,14 +189,16 @@ h4 {
   text-align: center;  
   font-size: 25px;
   padding: 30px;
-  margin: 10px 0;
-}
+  border-radius: 20px;
+  margin: 9px 0;
 
+}
 
 .h6 {
   font-size: 80px;
   font-family: 'Lato', sans-serif;
-  color: #b7babd;
+  color: white;
+  margin-top: 2px;
 }
 
 h6 {
@@ -193,7 +206,7 @@ h6 {
     text-align: center;
     font-size: 60px;
     margin: 50px;
-    color: #e6e6e6;
+    color: white;
     font-family: 'Lato', sans-serif;
     
 }
@@ -224,7 +237,7 @@ p {
  
  
   footer {
-    color: #3b3a3a;
+    color: black;
     padding-top: 25px;
     padding-bottom: 25px;
     display: flex;
@@ -235,16 +248,16 @@ p {
  /* Tablet LOGO */
   .fas {
     font-size: 50px;
-    color: #595959;
+    color: black;
     margin-left: 30px;
   }
   
   i {
-    color: #595959;
+    color: black;
   }
 
   .icon:hover {
-    color: black;
+    color: grey;
     transition: 1s;
   }
 
