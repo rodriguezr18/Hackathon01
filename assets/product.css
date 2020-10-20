@@ -1,0 +1,251 @@
+
+   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27');
+   
+   * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+   
+   body {
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+            
+       
+      }
+      /* Nav Bar */
+      
+        li, a, button {
+          font-weight: 500;
+          font-size: 20px;
+          text-decoration: none;
+          font-weight: bold;
+          color: black;
+          font-family: 'Lato', sans-serif;
+        }
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+         
+        }
+        .nav-links {
+          list-style: none;
+        }
+        .nav-links li {
+          display: inline-block;
+          cursor: pointer;
+          margin: 15px;
+        }
+      .nav-links li:hover {
+        border-bottom: 5px solid black;
+      }
+      .current {
+        border-bottom: 5px solid black;
+      }
+        .fas {
+          font-size: 80px;
+          color:black;
+          font-family: 'Lato', sans-serif;
+          display: flex;
+          width: 40px;
+          color: black;
+        }
+        h1 {
+          font-family: 'Lato', sans-serif;
+         font-weight: bold;
+         font-size: 50px;
+         color: black;
+         margin: 10px;
+        }
+        /* HERO */
+        .hero-image {
+          background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://www.denofgeek.com/wp-content/uploads/2020/07/project-power-poster-netflix.jpg?fit=1200%2C680");
+          height: 85vh;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          padding: 180px;
+          margin: 10px auto;
+          background-attachment: fixed;
+          display: flex;
+          align-items: center;
+          
+        }
+        .hero-text {
+          color: white;
+          
+          align-items: center;
+          display:flex;
+          flex-direction: center;
+          font-family: 'Lato', sans-serif;
+          font-size: 50px;
+          text-align: center;
+        
+        }
+
+        .content-container {
+            font-size: 25px;
+            line-height: 70px;
+            padding: 20px 40px;
+            margin: 25px;
+            margin-top: 80px;
+            text-align: center;
+            color: white;
+            
+        }
+
+        .grey-box {
+            font-family: 'Lato', sans-serif;
+            background-color:rgba(0,0,0,0.8);
+            padding: 30px;
+            border-radius: 20px;
+        }
+
+        .steps{
+            line-height: 60px;
+            width: 100%;
+          text-align: center;
+            margin-top: 70px;
+            background-color:rgba(0,0,0,0.8);
+            border-radius: 20px;
+      
+           
+            
+        }
+        .simple-steps {
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        .step-size {
+            font-size: 40px;
+        }
+        
+        
+          .container {
+            display:flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+          }
+
+          .hero-image2 {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/07/03/17/23/iphone-830480_1280.jpg");
+            height: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 180px;
+            margin: 10px auto;
+            margin-top: 80px;
+            border-radius: 20px;
+            background-attachment: fixed;
+          }
+
+
+          .hero-image3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 60vh;
+            background-image: url("https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/sites/93/2016/01/02-EXPO2015-51.jpg");
+            margin-top: 80px;
+            border-radius: 20px;
+            background-attachment: fixed;
+            background-position: bottom;
+            background-size: cover;
+            border-radius: 20px;
+            
+            
+          }
+
+          .location {
+            line-height: 60px;
+            width: 800px;
+            text-align: center;
+            margin-top: 70px;
+            background-color:rgba(0,0,0,0.8);
+            border-radius: 20px;
+            
+      
+          }
+
+          
+         
+          .hero-image4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            background-image: url("https://www.rhythmsystems.com/hubfs/iStock-1028038004.jpg");
+            margin-top: 80px;
+            border-radius: 20px;
+            border-radius: 20px;
+            background-position: center;
+            border: 3px solid black;
+
+          }
+
+          .levels {
+            line-height: 60px;
+            width: 800px;
+            text-align: center;
+            margin-top: 70px;
+            background-color:rgba(0,0,0,0.8);
+            border-radius: 20px;
+          }
+    
+        
+    
+        
+       
+        /* Footer */
+        .link-container {
+          list-style: none;
+          display: flex;
+        }
+        .link-container li {
+          margin-right: 20px;
+        }
+        .link-container li a {
+          text-decoration: none;
+          color: black;
+          font-size: 25px;
+        }
+        footer {
+            
+         width: 100%;
+          color: black;
+          padding-top: 25px;
+          padding-bottom: 25px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 90px;
+          
+        }
+       /* Tablet LOGO */
+        .fas {
+          font-size: 50px;
+          color: black;
+          margin-left: 30px;
+        }
+        i {
+          color: black;
+        }
+        .icon:hover {
+          color: #333333;
+          transition: 1s;
+        }
+        .copy-right {
+          margin-right: 20px;
+        }
+
+
+        @media all and (max-width:500px) {
+            .hero-text {
+              font-size: 20px;
+            }
+            }
