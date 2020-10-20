@@ -73,6 +73,7 @@
           display: flex;
           align-items: center;
           
+          
         }
         .hero-text {
           color: white;
@@ -223,6 +224,7 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
+        
           margin-top: 90px;
           
         }
