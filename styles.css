@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap%27");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+
+/* Nav Bar */
+li,
+a,
+button {
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+}
+.nav-links li:hover {
+  border-bottom: 5px solid black;
+}
+.current {
+  border-bottom: 5px solid black;
+}
+
+.fas {
+  font-size: 80px;
+  color: white;
+  font-family: "Abel", sans-serif;
+  display: flex;
+  width: 40px;
+  color: black;
+}
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+  margin: 10px;
+}
+/* Form */
+.container {
+  margin-top: 75px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 100px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.contact-box {
+  max-width: 850px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+}
+.left {
+  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/charcoal-pills-1516368894.jpg?resize=480:*")
+    no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+.right {
+  padding: 25px 40px;
+}
+h2 {
+  position: relative;
+  padding: 0 0 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+.field {
+  width: 100%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  outline: none;
+  background-color: white (230, 230, 230, 0.6);
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+.field:hover {
+  background-color: #333333 (0, 0, 0, 0.1);
+}
+textarea {
+  min-height: 150px;
+}
+.btn2 {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+.btn2:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.field:focus {
+  background-color: white;
+}
+@media screen and (max-width: 880px) {
+  .contact-box {
+    grid-template-columns: 1fr;
+  }
+  .left {
+    height: 200px;
+  }
+}
+
+/*END FORM  */
+
+/* HERO */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.pinimg.com/originals/b6/0c/d0/b60cd0cfee7f9cc0e0e44165d749e320.gif");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px;
+  margin: 10px auto;
+  background-attachment: fixed;
+}
+.hero-text {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Staatliches", cursive;
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 41px;
+}
+/* Footer */
+.link-container {
+  list-style: none;
+  display: flex;
+}
+.link-container li {
+  margin-right: 20px;
+}
+.link-container li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  color: black;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Tablet LOGO */
+.fas {
+  font-size: 50px;
+  color: black;
+  margin-left: 30px;
+}
+i {
+  color: black;
+}
+.icon:hover {
+  color: #333333;
+  transition: 1s;
+}
+.copy-right {
+  margin-right: 20px;
+}
+@media all and (max-width: 500px) {
+  .hero-text {
+    font-size: 20px;
+  }
+}
